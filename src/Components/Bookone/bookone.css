@@ -1,0 +1,146 @@
+.Bookone{
+    width: 100vw;
+    height:100vh;
+    margin-top: 10rem;
+    
+}
+.BOContainer{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin:7rem auto;
+    
+
+}
+.BOLeft{
+    width: 35vw;
+    
+    /* border: 2px solid; */
+    
+    position: relative;
+    height: 250px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+   
+}
+
+.BODetails{
+    padding-bottom: -2rem;
+}
+.BOULeft img{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius:  50%; ;
+    top: -1rem;
+    left: 1.5rem;
+}
+.BOLeft h2{
+    position: absolute;
+    top: -9rem;
+    color: black;
+}
+
+.BOUp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.BODown{
+    width: 35vw;
+    height: 150px;
+    box-shadow: 5px 5px 6px 6px rgba(0, 0, 0, 0.337);
+    color: black;
+    font-size: 24px;
+    line-height: 0.6;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    
+    margin-top: 10rem; 
+    
+}
+
+
+
+.BOURight h3{
+    margin-top: 1rem;
+    color: black;
+    font-size: 26px;
+    margin-left: 6rem;
+}
+.BOURight p{
+text-align: left;
+margin-left: 7rem;
+font-size: 20px;
+margin-top: 2rem
+}
+.BORight{
+    width: 35vw;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-top: 40px solid   rgb(3, 89, 89);;
+    ;
+    /* font-size: 32px; */
+}
+.BORight {
+    position: relative;
+}
+.BORight h2{
+    position: absolute;
+    top: -11rem;
+    color: black;
+    font-size: 33px;
+}
+.BORight .form-label{
+    font-size: 22px;
+}
+
+.BORight form{
+    width: 80%;
+    text-align: left;
+    /* padding: 10px; */
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .BOContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .BOContainer .BOLeft{
+        width: 80vw;
+        margin-bottom: 7rem;
+    
+    }
+    /* .BOContainer .BODetails .BOULeft img{
+        width: 80vw;
+        margin-bottom: 5rem;
+    } */
+    .BOContainer .BODetails .BOURight {
+        margin-left: 3rem;
+        margin-top: -1rem;
+    }
+
+    .BOContainer .BOLeft .BODown{
+        
+        font-size: 16px;
+        margin-top: -3rem;
+    }
+    .BOContainer .BORight{
+        width: 80vw;
+    }
+    .BOContainer .BORight h2{
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .BOContainer .BORight .submitBtn{
+        width: 100px!important;
+    }
+
+
+}

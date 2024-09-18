@@ -1,0 +1,31 @@
+.Sidebar{
+    width: 20vw;
+    /* height: 100vw; */
+    /* background-color: antiquewhite; */
+    border-right: 2px solid black;
+    margin-right: 1rem;
+    
+}
+
+.SContainer{
+display: flex;
+flex-direction: column;   
+height: 77.5vh; 
+width: 20vw;
+padding: 0rem  1rem;
+}
+.SContainer .item-link{
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+/* .SContainer .item-link:hover{
+    background-color: rgb(3, 182, 170);
+    border-radius: 15px;
+
+} */
+.active{
+    background-color: rgb(3, 182, 170);
+    border-radius: 15px;
+}

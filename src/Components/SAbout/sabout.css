@@ -1,0 +1,61 @@
+.SAbout{
+    width: 100vw;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.SAContainer{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.SAContainer h2{
+    margin-bottom: 2rem;
+}
+
+.SAContainer .SAContent{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.SAContainer .SAContent .SALeft, .SAMid, .SARight{
+    width: 30%;
+    font-size: 17px;
+}
+@media (max-width: 768px) {
+
+  .SAContainer .SAContent {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+  }
+  .SAContainer{
+    align-items: center;
+
+  }
+  .SAContainer .SAContent{
+    gap: 2rem;
+  }
+ .SAbout .SAContainer h2{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 4rem;
+    border-bottom: 3px solid green;
+    padding-bottom: 1rem;
+    width: fit-content;
+ }
+  .SAContainer .SAContent .SALeft, .SAMid, .SARight{
+    width: 88vw;
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+    margin-left: -1.2rem;
+    text-align: left;
+}
+    
+
+}

@@ -1,0 +1,293 @@
+.About{
+    width: 100vw;
+    margin-top: 5rem;
+    margin-left: -10rem;
+}
+
+
+
+.AContainer{
+    width: 80vw;
+    margin: 0 auto;
+   text-align: left;
+   margin-top: 5rem;
+}
+.AContainer h2{
+
+    color: rgb(3, 89, 89);
+    margin-bottom: 3rem;
+    font-size: 42px;
+}
+.AContainer p{
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
+
+.AContainer button{
+    width: 200px;
+    padding: 5px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    background-color: rgb(3, 89, 89);
+    border-radius: 15px;
+}
+.AContainer button:hover{
+    /* padding: 10px; */
+}
+
+
+/* Intro */
+.intro{
+    display: flex;
+    height: calc(100vh - 80px);
+    width: 100vw;
+}
+.i-left{
+    display: flex;
+    flex: 8;
+    position: relative;
+    flex-direction: column;
+    /* left: 5rem; */
+    gap: 1.5rem;
+    padding-top: 10rem;
+    background-color: #08de9e19;
+    /* margin-top: 6rem; */
+    margin-top: -1rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.2rem; */
+    margin-left: 10rem;
+    margin-top: -5rem;
+}
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+.i-name>:nth-child(3){
+    color: var(--black);
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    max-width: 20rem;
+    color: rgba(0, 0, 0, 0.645);
+    /* margin-left: 5rem; */
+}
+.i-button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #20c0ac;
+    border-radius: 1rem;
+    font-size: 22px;
+    color: white;
+    border: none;
+    margin-left: 10rem;
+}
+/*  */
+.i-button:hover{
+transform: scale(1.1);
+color: black;
+}
+
+
+
+.i-right{
+    position: relative;
+    flex: 4;
+    /* background-color: #20c0ac; */
+    background-color: #08de9e19;
+
+    margin-top: -1.1rem;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    transform: scale(0.8);
+    left: -12rem;
+    top: -2rem;
+    margin-top: 5rem;
+}
+.i-right>:nth-child(2){
+    transform: scale(0.7);
+    left: -3rem;
+    top: -4.5rem;
+}
+.i-right>:nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+    
+}
+
+.i-right>:nth-child(4){
+    transform: scale(0.6);
+    left: -24%;
+    top: -19%;
+    border-radius: 50%;
+}
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+}
+
+
+
+/* ASection2 */
+
+.ASection2{
+    display: flex;
+    width: 100vw;
+    /* background-color: #20c0ac; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+.ASection2 .AboutSCon{
+    display: flex;
+    width: 90vw;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 3rem;
+}
+.ASection2 .AboutSCon .ASbottom{
+    display: flex;
+justify-content: space-between;}
+.ASection2 .AboutSCon .ASbottom .StatCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.7;
+}
+.ASection2 .AboutSCon .ASbottom .StatCard>:nth-child(3){
+    margin-top: -3rem;
+}
+.AboutSCon .icons{
+    margin-top: -2rem;
+}
+.ASection2 .AboutSCon .ASbottom{
+    width: 80vw;
+}
+.ASection2 .AboutSCon .ASbottom img{
+width: 160px;
+height: 160px;
+border-radius: 50%;
+margin-bottom: 1rem;
+}
+
+
+.third{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 10rem 0;
+}
+
+.third .thirdCon{
+    width: 80vw;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5rem;
+}
+
+.thirdCon .thirdL img{
+    width: 36vw;
+    height: 430px;
+}
+.thirdCon .thirdR{
+    margin-top: -1rem;
+}
+
+.thirdCon .thirdR h2{
+margin-bottom: 4rem;
+margin-top: 1rem;
+}
+
+.thirdCon .thirdR .missionList{
+margin-top: -5rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+/* .About{
+    margin-left: 7rem;
+} */
+.intro{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+ margin-left: 7.7rem;
+
+    
+}
+
+.i-left{
+ width: 100vw;
+}
+.i-left .i-name{
+    margin-left: 2rem;
+}
+.intro .i-left .i-button{
+    display: none;
+}
+.intro .i-right{
+    margin-top: -40rem;
+    margin-left: -5rem;
+}
+.intro .i-right img{
+    width: 90vw;
+    margin-left: 3.5rem;
+}
+.ASection2{
+   margin-top: 12rem;
+   justify-content: center;
+   align-items: center;
+   margin-left: 8rem;
+}
+.ASection2 .ASbottom{
+    flex-direction: column;
+}
+.ASection2 .ASbottom .StatCard{
+    margin-bottom: 2rem;
+}
+.third{
+    margin-left: 7rem;
+}
+.third .thirdCon{ 
+    flex-direction: column;
+}
+.third .thirdCon img{ 
+    width: 85vw;
+    height: 300px;
+}
+.third .missionList>:last-child{
+margin-top: -7rem !important;
+}
+}

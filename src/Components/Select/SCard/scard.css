@@ -1,0 +1,212 @@
+.SCard{
+    width: 100vw;
+   display: flex;
+   margin-top: 5rem;
+}
+
+.SCContainer{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+     margin:  0 auto;
+     align-items: center;
+     flex-direction: column;
+}
+
+.SCard .SCContainer .SCMHeader{
+    font-size: 40px;
+}
+.SCard .SCContainer .SCSHeader{
+    font-size: 30px;
+    margin-bottom: 5rem;
+}
+
+ [type=search]{
+    width: 50vw;
+    color: black;
+    font-size: 23px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    /* border: none; */
+    border: 2px solid rgb(3, 89, 89);
+    margin-bottom: 3rem;
+    box-shadow: 6px 10px 7px #aaaaaa;
+}
+[type=search]::placeholder{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(3, 89, 89, 0.614);
+}
+.SCCards{
+    display: flex;
+    width: 80vw;
+    margin:  0 auto;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin-bottom: 6rem;
+    /* flex-direction: column; */
+}
+.Scard{
+    width: 25vw;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 1rem; */
+    margin-right: 2%;
+    margin-bottom: 2rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+.SCUp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+.SCULeft{
+    background-color: rgb(3, 89, 89);
+    width: 25vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 15px 0;
+}
+.SCURight h3{
+    margin-top: 1rem;
+    color: black;
+}
+.SCURight p{
+text-align: center;
+/* margin-left: 2rem; */
+font-size: 20px;
+}
+
+
+
+.SCMid{
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+.SCMid .SCRow{
+    display: flex;
+    gap: 1rem;
+}
+.SCMid span{
+    font-size: 24px;
+}
+.SCMid p{
+    font-size: 20px;
+}
+
+.SCDown  button{
+    width: 80%;
+    border-radius: 10px;
+    /* padding: 5px 0; */
+    background-color: aquamarine;
+    font-size: 32px;
+    margin-bottom: 2rem;
+    border: none;
+    position: relative;
+}
+.SCDown p {
+    background-color: aliceblue;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px 0;
+    /* align-self: center; */
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+
+    .SCContainer{
+        gap: 0rem;
+    }
+    .SCard .SCContainer .SCMHeader{
+        font-size: 30px;
+    }
+    .SCard .SCContainer .SCSHeader{
+        font-size: 20px;
+        margin-bottom: 5rem;
+    }
+
+    [type=search]{
+        width: 80vw;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 5rem;
+        border-radius: 10px;
+    }
+    [type=search]::placeholder{
+        text-align: left;
+        padding-left: 1rem;
+        font-size: 25px;
+        color: rgba(3, 89, 89, 0.385);
+    }
+    .SCCards {
+        display: flex;
+        width: 80vw;
+        margin: 0 auto;
+        align-items: center;
+        /* justify-content: space-between; */
+        margin-bottom: 2rem;
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: -.6rem;
+     
+    }
+
+    .SCCards .Scard{
+        width: 85vw;
+        
+    }
+    .SCULeft {
+        width: 27vw;
+        background-color: inherit;
+    }
+    .SCCards .Scard .SCULeft img{
+        width: 100px !important;
+        height: 100px !important;
+        margin-top: -3rem;
+    }
+
+    .SCCards .Scard  .SCURight p{
+        font-size: 14px;
+    }
+    .SCMid {
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .SCMid p{
+        font-size: 17px;
+        /* margin-left: 0; */
+    }
+
+    .SCMid  span{
+        font-size: 20px !important;
+    }
+    .SCDown p {
+        background-color: aliceblue;
+        width: 90%;
+        border-radius: 10px;
+        padding: 5px 0;
+        /* align-self: center; */
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .SCDown  button{
+        width: 90%;
+        font-size: 26px;
+    }
+  
+}

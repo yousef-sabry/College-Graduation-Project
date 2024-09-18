@@ -1,0 +1,65 @@
+.Footer{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    
+}
+.Fcontainer{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.Fcontainer img{
+    margin-bottom: 2rem;
+    /* color: white; */
+    margin-top: 2rem;
+    margin-left: -3rem;
+    width: 150px;
+    height: 60px;
+
+}
+
+.Fcontainer .FContent{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    text-align: left;
+    font-size: 17px;
+    margin-left: -3.5rem;
+}
+.Fcontainer .FContent h5{
+    color: aqua;
+}
+.Fcontainer .FContent p{
+    color: white;
+}
+.Footer .FRight .icon{
+    /* background-color: aliceblue; */
+    margin-right: 3px;
+    border-radius: 10px;
+}
+.Footer .FRight .icon:hover{
+    background-color: aliceblue;
+    size: 60px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .Footer .Fcontainer h2 {
+        font-size: 40px;
+    }
+    .Footer .FContent{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 0rem;   
+        gap: 1.5rem;
+    }
+
+    .FIcons{
+        transform: scale(0.7);
+        margin-left: -3rem;
+    }
+}
